@@ -51,7 +51,7 @@ namespace Tetris
             {
                 if (grid[r,c] != 0)
                 {
-                    return false
+                    return false;
                 }
             }
 
@@ -87,7 +87,7 @@ namespace Tetris
                     cleared++;
                 } else if (cleared > 0)
                 {
-                    MoveRowDown(r, cleared)
+                    MoveRowDown(r, cleared);
                 }
             }
             return cleared;
